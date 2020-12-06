@@ -1,5 +1,6 @@
-package com.soemardjo.bankingservices;
+package com.soemardjo.bankingservices.web;
 
+import com.soemardjo.bankingservices.web.TransactionController;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;

@@ -1,4 +1,4 @@
-package com.soemardjo.bankingservices;
+package com.soemardjo.bankingservices.web;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;

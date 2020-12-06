@@ -1,4 +1,4 @@
-package com.soemardjo.bankingservices;
+package com.soemardjo.bankingservices.entity;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

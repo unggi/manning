@@ -1,7 +1,6 @@
-package com.soemardjo.bankingservices;
+package com.soemardjo.bankingservices.service;
 
-import com.soemardjo.bankingservices.Transaction;
-import org.springframework.stereotype.Component;
+import com.soemardjo.bankingservices.entity.Transaction;
 import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
