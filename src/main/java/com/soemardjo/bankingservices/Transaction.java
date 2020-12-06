@@ -1,14 +1,17 @@
 package com.soemardjo.bankingservices;
 
-import java.net.URI;
+import lombok.AllArgsConstructor;
 import lombok.Data;
+import lombok.NoArgsConstructor;
 
+@NoArgsConstructor
+@AllArgsConstructor
 @Data
 public class Transaction {
-    int type;
-    Long accountNumber;
-    String currency;
-    Long amount;
-    String merchantName;
-    URI merchantLogo;
+    private String type;
+    private Integer accountNumber;
+    private String currency;
+    private Double amount;
+    private String merchantName;
+    private String merchantLogo;
 }

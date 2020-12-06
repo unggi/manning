@@ -21,8 +21,7 @@ public class TransactionServiceTest {
     @Test
     void testFindAllByAccountNumber() {
 
-        System.out.println("Hello World");
-        List<Transaction> result = service.findAllByAccountNumber(0L);
+        List<Transaction> result = service.findAllByAccountNumber(0);
         Assertions.assertTrue(result.size() > 0);
     }
 

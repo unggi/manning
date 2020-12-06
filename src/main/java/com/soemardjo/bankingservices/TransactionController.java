@@ -20,7 +20,7 @@ public class TransactionController {
     }
 
     @GetMapping("/{account}")
-    public List<Transaction> findAllByAccountNumber(@PathVariable("account") Long account) {
+    public List<Transaction> findAllByAccountNumber(@PathVariable("account") Integer account) {
         return transactionService.findAllByAccountNumber(account);
     }
 }

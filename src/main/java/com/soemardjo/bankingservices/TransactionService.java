@@ -2,14 +2,14 @@ package com.soemardjo.bankingservices;
 
 import com.soemardjo.bankingservices.Transaction;
 import org.springframework.stereotype.Component;
+import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
 import java.util.List;
 
-@Component("transactionService")
+@Service("transactionService")
 public class TransactionService {
-    public List<Transaction> findAllByAccountNumber(Long accountNumber) {
-        List<Transaction> list = new ArrayList<Transaction>();
-        return list;
+    public List<Transaction> findAllByAccountNumber(final Integer  accountNumber) {
+        return new ArrayList<>();
     }
 }
